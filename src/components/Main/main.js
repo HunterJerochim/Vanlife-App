@@ -29,7 +29,7 @@ const Main = () => {
             <div className="image-container">
                 <img 
                     src="https://res.cloudinary.com/dav8yugzm/image/upload/v1716924933/Mountain_vanlife_mbfbg7.png"
-                    alt="mountain image"
+                    alt="mountain"
                     className="mountain-image"
                 />
                 <div className="image-overlay">
