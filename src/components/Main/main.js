@@ -1,11 +1,10 @@
-import { useState } from "react";
+import React from "react";
 import "./main.css";
 import { Link, useLocation } from "react-router-dom";
 
 const Main = () => {
     const { pathname } = useLocation()
     const isAboutRoute = pathname === "/about";
-    const isVansRoute = pathname === "/vans";
     
     return (
         <div className="main-page-container">
@@ -30,6 +29,7 @@ const Main = () => {
             <div className="image-container">
                 <img 
                     src="https://res.cloudinary.com/dav8yugzm/image/upload/v1716924933/Mountain_vanlife_mbfbg7.png"
+                    alt="mountain image"
                     className="mountain-image"
                 />
                 <div className="image-overlay">
